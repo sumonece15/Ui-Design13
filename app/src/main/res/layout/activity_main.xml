@@ -63,7 +63,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/editTextTextEmail"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="64dp"
@@ -73,7 +73,7 @@
             android:ems="10"
             android:gravity="center"
             android:hint="Email"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:textColor="#ffffff"
@@ -83,7 +83,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editTextTextPassword"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="64dp"
@@ -93,7 +93,7 @@
             android:ems="10"
             android:gravity="center"
             android:hint="Password"
-            android:inputType="textPersonName|textPassword"
+            android:inputType="textPassword"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
             android:textColor="#ffffff"
@@ -101,7 +101,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmail" />
 
         <Button
             android:id="@+id/button"
@@ -116,7 +116,7 @@
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
         <TextView
             android:id="@+id/textView4"
