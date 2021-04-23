@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.2"
-        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -23,13 +22,13 @@
             android:gravity="center"
             android:text="Hi There!"
             android:textColor="#000000"
-            android:textSize="70sp" />
+            android:textSize="50sp" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:gravity="center"
             android:text="Welcome To Social App"
             android:textColor="#000000" />
@@ -45,7 +44,7 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="110dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -57,8 +56,8 @@
             android:layout_height="wrap_content"
             android:text="Social App"
             android:textColor="#ffffff"
-            android:textSize="36sp"
-            android:fontFamily="casual"
+            android:textSize="30sp"
+            android:fontFamily="serif-monospace"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/imageView"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -68,7 +67,7 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="64dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="25dp"
             android:layout_marginEnd="64dp"
             android:background="@drawable/background_edittext"
             android:ems="10"
@@ -88,7 +87,7 @@
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="64dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="64dp"
             android:background="@drawable/background_edittext"
             android:ems="10"
@@ -109,7 +108,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="64dp"
             android:background="@drawable/background_login_btn"
             android:text="LOGIN"
@@ -123,8 +122,8 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Dont Have An Account? SignUp"
+            android:layout_marginTop="10dp"
+            android:text="Don't Have An Account? SignUp"
             android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="@+id/button"
             app:layout_constraintStart_toStartOf="@+id/button"
